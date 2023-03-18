@@ -1,0 +1,43 @@
+{
+  "src/entry-client.css": {
+    "file": "assets/entry-client-d870915a.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.jsx": {
+    "css": [
+      "assets/entry-client-d870915a.css"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].jsx",
+      "src/routes/about.jsx",
+      "src/routes/index.jsx"
+    ],
+    "file": "assets/entry-client-688e06ea.js",
+    "isEntry": true,
+    "src": "src/entry-client.jsx"
+  },
+  "src/routes/[...404].jsx": {
+    "file": "assets/_...404_-f484e496.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].jsx"
+  },
+  "src/routes/about.jsx": {
+    "file": "assets/about-faecc760.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/about.jsx"
+  },
+  "src/routes/index.jsx": {
+    "file": "assets/index-69be0b0e.js",
+    "imports": [
+      "src/entry-client.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.jsx"
+  }
+}

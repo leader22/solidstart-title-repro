@@ -1,0 +1,1 @@
+import{g as l,a,i,c as o,T as s,t as m}from"./entry-client-688e06ea.js";const c=m("<main><!#><!/><h1>Hello world!</h1></main>",6);function p(){return(()=>{const e=l(c),n=e.firstChild,[t,r]=a(n.nextSibling);return t.nextSibling,i(e,o(s,{get children(){return["🐢"," | XXX"]}}),t,r),e})()}export{p as default};
